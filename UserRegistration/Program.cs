@@ -33,6 +33,9 @@ namespace UserRegistration
                     case 5:
                         UserDetails.PasswordMin8Char();
                         break;
+                    case 6:
+                        UserDetails.PasswordMin8CharAnd1UpperCase();
+                        break;
                     default:
                         Console.WriteLine("Invalid option selected ,Please try again !");
                         break;
