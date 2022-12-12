@@ -27,6 +27,9 @@ namespace UserRegistration
                     case 3:
                         UserDetails.Email();
                         break;
+                    case 4:
+                        UserDetails.MobileNo();
+                        break;
                     default:
                         Console.WriteLine("Invalid option selected ,Please try again !");
                         break;
