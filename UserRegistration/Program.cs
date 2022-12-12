@@ -30,6 +30,9 @@ namespace UserRegistration
                     case 4:
                         UserDetails.MobileNo();
                         break;
+                    case 5:
+                        UserDetails.PasswordMin8Char();
+                        break;
                     default:
                         Console.WriteLine("Invalid option selected ,Please try again !");
                         break;
