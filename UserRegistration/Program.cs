@@ -42,6 +42,9 @@ namespace UserRegistration
                     case 8:
                         UserDetails.Password1SpecialChar();
                         break;
+                    case 9:
+                        UserDetails.ClearEmailSample();
+                        break;
                     default:
                         Console.WriteLine("Invalid option selected ,Please try again !");
                         break;
