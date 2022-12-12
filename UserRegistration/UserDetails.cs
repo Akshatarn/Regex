@@ -16,6 +16,13 @@ namespace UserRegistration
             string regexCondition = "^[A-Z]{1}[a-z]{3,}$";
             Iteration(userInput, regexCondition);
         }
+        public static void LastName()
+        {
+            Console.WriteLine("Enter your Last Name");
+            string userInput = Console.ReadLine();
+            string regexCondition = "^[A-Z]{1}[a-z]{3,}$";
+            Iteration(userInput, regexCondition);
+        }
         public static void Iteration(string userInput, string regexCondition)
         {
             if (Regex.IsMatch(userInput, regexCondition))
