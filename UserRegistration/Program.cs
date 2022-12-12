@@ -39,6 +39,9 @@ namespace UserRegistration
                     case 7:
                         UserDetails.UpperCaseAndNumeric();
                         break;
+                    case 8:
+                        UserDetails.Password1SpecialChar();
+                        break;
                     default:
                         Console.WriteLine("Invalid option selected ,Please try again !");
                         break;
